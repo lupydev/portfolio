@@ -1,0 +1,21 @@
+/*
+1. Position
+2. Box model
+3. Typographic
+4. Visuals
+5. Miscelaneos
+*/
+
+:root{
+    --color-primary: #191d2b;
+    --color-secundary: #27AE60;
+    --color-just-white: #FFFFFF;
+    --color-just-black: #000;
+    --color-grey-0: #f8f8f8;
+    --color-grey-1: #dbe1e8;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #454e56;
+    --color-grey-5: #2a2e35;
+    --color-grey-6: #12181b;
+}
