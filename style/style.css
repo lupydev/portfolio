@@ -24,6 +24,19 @@
 * {
   box-sizing: border-box;
 }
+.light-mode{
+  --color-primary: #f8f8f8;
+  --color-secundary: #27ae60;
+  --color-just-white: #454e56;
+  --color-just-black: #000;
+  --color-grey-0: #f8f8f8;
+  --color-grey-1: #454e56;
+  --color-grey-2: #12181b;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #b2becd;
+  --color-grey-5: #ffffff;
+  --color-grey-6: #12181b;
+}
 header {
   height: 100vh;
   overflow: hidden;
@@ -174,7 +187,7 @@ section {
 .active-btn i {
   color: var(--color-just-white) !important;
 }
-.control {
+.control, .theme-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,10 +201,21 @@ section {
   background-color: var(--color-grey-4);
   cursor: pointer;
 }
-.control i {
+.control i, .theme-btn i {
   font-size: 1.8rem;
   color: var(--color-grey-2);
   pointer-events: none;
+}
+
+.theme-btn{
+  position: fixed;
+  display: flex;
+  top: 5%;
+  right: 3%;
+  transition: all .1s ease-in-out;
+}
+.theme-btn:active{
+  transform: translateY(-5);
 }
 
 /* ----ABOUT-SECTION---- */
@@ -353,12 +377,15 @@ section {
   position: relative;
   border-radius: 15px;
   border: 1px solid var(--color-grey-5);
+  box-shadow: var(--box-shadow);
+
 }
 .portfolio-item .background-image img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   border-radius: 15px;
   object-fit: cover;
+  box-shadow: var(--box-shadow);
 }
 .portfolio-item .hover-background-image {
   display: flex;
@@ -445,18 +472,19 @@ section {
   display: flex;
   column-gap: 24px;
 }
-.input-control label, input, textarea{
+.input-control label span, input, textarea{
   width: 100%;
-  padding: 1rem 1.2rem;
-  border-radius: 0px;
+  padding: 1.5rem 1.5rem;
+  border-radius: 10px;
   font-size: 1.6rem;
   font-weight: 500;
   border: none;
   outline: none;
+  resize: none;
 }
 .input-control input, textarea{
   margin-top: 10px;
-  color: var(--color-just-white);
+  color: var(--color-grey-1);
   background-color: var(--color-grey-5);
 }
 .submit-btn{
