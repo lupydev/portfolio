@@ -6,6 +6,8 @@
 5. Miscelaneos
 */
 
+@import url('./tablet.css');
+
 :root {
   --color-primary: #191d2b;
   --color-secundary: #27ae60;
@@ -133,9 +135,9 @@ section {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  width: 18rem;
+  /* width: 18rem;
   height: 4rem;
-  margin-top: 2rem;
+  margin-top: 2rem; */
   border-radius: 30px;
   border: 1px solid var(--color-secundary);
   font-size: 1.4rem;
@@ -223,13 +225,14 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-  margin-bottom: 5rem;
+  gap: 10rem;
+  margin: 0 4rem 6rem 4rem;
 }
 .about-title {
   text-align: center;
 }
 .about-title h2 {
+  margin: 4.5rem 0;
   text-transform: uppercase;
   font-size: 4.5rem;
   font-weight: 700;
@@ -257,7 +260,7 @@ section {
 .about-right {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 4rem;
   align-content: center;
 }
 .about-item {
@@ -284,7 +287,7 @@ section {
   color: var(--color-secundary);
 }
 .about-text .small-text {
-  padding-left: 3rem;
+  padding-left: 5rem;
   position: relative;
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -296,11 +299,17 @@ section {
   position: absolute;
   left: 0;
   top: 15px;
-  width: 2rem;
+  width: 4rem;
   height: 2px;
   background-color: var(--color-grey-5);
 }
-
+/* --BTN-- */
+.header-btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
 /* --SKILSS-- */
 
 .about-skills {
@@ -350,6 +359,7 @@ section {
   text-align: center;
 }
 .portfolio-title h2 {
+  margin: 4.5rem 0;
   font-size: 4.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -362,19 +372,22 @@ section {
   color: var(--color-grey-1);
 }
 .portfolio h3 {
-  margin: 50px 0;
+  margin: 80px 0 50px 0;
   font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
 }
 .portfolio-container {
-  display: grid;
+  /* if i got more than 3 item then i have to use GRID */
+  display: flex;  
+  place-content: center;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
-  gap: 30px;
+  gap: 40px;
   margin-bottom: 50px;
 }
 .portfolio-item {
-  position: relative;
+  position: relative;  
+  min-width: 300px;
   border-radius: 15px;
   border: 1px solid var(--color-grey-5);
   box-shadow: var(--box-shadow);
@@ -395,9 +408,11 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
+  padding: 5rem;
   left: 0;
   top: 0;
   border-radius: 15px;
+  gap: 2rem;
   opacity: 0;
   transform: scale(0);
   background-color: var(--color-secundary);
@@ -451,6 +466,7 @@ section {
   align-items: center;
 }
 .contact-container h2{
+  margin: 4.5rem 0;
   text-transform: uppercase;
   font-size: 4.5rem;
   font-weight: 700;
@@ -460,7 +476,7 @@ section {
 }
 .contact-container > p{
   margin: 30px 0;
-  max-width: 650px;
+  max-width: 763px;
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: var(--color-grey-1);
@@ -491,6 +507,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .social-media{
   margin-top: 30px;
