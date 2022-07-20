@@ -5,7 +5,7 @@
 4. Visuals
 5. Miscelaneos
 */
-
+@import url('./mobile.css');
 @import url('./tablet.css');
 
 :root {
