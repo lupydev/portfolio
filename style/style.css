@@ -7,6 +7,7 @@
 */
 @import url('./mobile.css');
 @import url('./tablet.css');
+@import url('./tabletmax.css');
 
 :root {
   --color-primary: #191d2b;
@@ -143,6 +144,8 @@ section {
   font-size: 1.4rem;
   line-height: 1.6rem;
   overflow: hidden;
+  box-shadow: var(--box-shadow);
+
 }
 .btn-text {
   padding: 1.2rem;
@@ -227,6 +230,8 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 10rem;
   margin: 0 4rem 6rem 4rem;
+  justify-content: center;
+  align-items: center;
 }
 .about-title {
   text-align: center;
@@ -261,6 +266,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4rem;
+  justify-content: center;
   align-content: center;
 }
 .about-item {
@@ -379,15 +385,17 @@ section {
 }
 .portfolio-container {
   /* if i got more than 3 item then i have to use GRID */
-  display: flex;  
-  place-content: center;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  grid-template-columns: repeat(3, 375px);
   gap: 40px;
   margin-bottom: 50px;
 }
 .portfolio-item {
   position: relative;  
-  min-width: 300px;
+  min-width: 250px;
+  max-width: 300px;
   border-radius: 15px;
   border: 1px solid var(--color-grey-5);
   box-shadow: var(--box-shadow);
@@ -470,6 +478,7 @@ section {
   text-transform: uppercase;
   font-size: 4.5rem;
   font-weight: 700;
+  text-align: center;
 }
 .contact-container h2 span {
   color: var(--color-secundary);
@@ -500,6 +509,7 @@ section {
 }
 .input-control input, textarea{
   margin-top: 10px;
+  box-shadow: var(--box-shadow);
   color: var(--color-grey-1);
   background-color: var(--color-grey-5);
 }
@@ -517,7 +527,7 @@ section {
 }
 .social-media .icon-big i{
   font-size: 3rem;
-  color: var(--color-secundary);
+  color: var(--color-secundary);  
 }
 .contact-location{
   margin-top: 15px;
