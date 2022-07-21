@@ -1,0 +1,10 @@
+@media screen and (max-width: 1100px) {
+    .about-right{
+    grid-template-columns: 25rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    }    
+    .hover-background-image h4, p{
+        margin: 1rem !important;
+    }
+}

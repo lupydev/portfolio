@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  /* ----CONTROLLS---- */
+  .controlls {
+    flex-direction: row !important;
+    justify-content: center;
+    top: auto !important;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    column-gap: 0.7rem;
+    transform: translateX(-50%) !important;
+  }
+
+  /* ----HEADER---- */
+
+  /* ----ABOUT-SECTION---- */
+
+  .about-container {
+    grid-template-columns: 1fr !important;
+    gap: 5rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 7rem !important;
+  }
+  /* .about-right{
+    grid-template-columns: 25rem !important;
+
+  } */
+  .header-btn-container {
+    margin-bottom: 4rem !important;
+  }
+  .about-skills {
+    margin-bottom: 4rem;
+  }
+
+  /* ----PORTFOLIO-SECTION---- */
+  .portfolio-container{
+    flex-direction: column;
+    /* if i got more than 3 items then i have to use GRID */
+    /* grid-template-columns: minmax(300px, 1fr) !important; */
+  }
+
+  /* ----CONTACT-SECTION---- */
+
+  .contact-form {
+    margin: 3rem 0;
+  }
+  .input-control {
+    margin: 3rem 0 !important;
+  }
+  .submit-btn {
+    margin-bottom: 0 !important;
+  }
+  .social-media {
+    margin-top: 6rem !important;
+  }
+  .social-media .icon-big i {
+    font-size: 4rem !important;
+  }
+  .contact-location{
+    margin-top: 7rem !important;
+  }
+}
+
