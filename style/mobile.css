@@ -1,0 +1,101 @@
+@media screen and (max-width: 767px) {
+
+    /* ----THEME-BTN---- */
+
+    .theme-btn{
+        top: 0 !important;
+        right: 2% !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    /* ----HOME---- */
+
+    .section{
+        padding: 0 2rem 0 2rem !important;
+    }
+    .header-content{
+        grid-template-columns: 1fr !important;
+        
+    }
+    .header-left{
+        justify-content: center !important;
+
+    }
+    .header-left .image{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 10rem 0 0 0 !important;
+        max-width: 45rem;
+    }
+    .header-shape{
+        display: none;
+    }
+    .header-right{
+        padding: 1rem !important;
+        max-width: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .name{
+        text-align: center;
+    }
+
+    /* ----ABOUT-SECTION----*/
+
+    .about-title h2 span{
+        display: block;
+    }
+    .about-container{
+        height: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .about-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-left p{        
+        max-width: 38rem;
+    }
+    .about-right{
+        grid-template-columns: 25rem !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+    .about-skills{
+        flex-direction: column;
+        margin-bottom: 7rem !important;   
+        gap: 2rem;     
+    }
+    .frontend-skills li, .blockchain-skills li{
+        margin-left: 4rem;
+        
+    }
+    
+    /* ----PORTFOLIO-SECTION---- */
+
+    .portfolio-container{
+        margin-bottom: 7rem !important;
+    }
+
+    /* ----CONTACT-SECTION---- */
+
+    .contact-container > p{
+        max-width: 38rem !important;
+    }
+    .contact-form{
+        margin: 0 !important;
+    }
+    .input-control{
+        flex-direction: column !important;
+        gap: 3rem;
+    }
+    .contact-location{
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+}
