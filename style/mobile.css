@@ -16,7 +16,7 @@
     }
     .header-content{
         grid-template-columns: 1fr !important;
-        
+
     }
     .header-left{
         justify-content: center !important;
@@ -57,7 +57,7 @@
         justify-content: center;
         align-items: center;
     }
-    .about-left p{        
+    .about-left p{
         max-width: 38rem;
     }
     .about-right{
@@ -68,14 +68,21 @@
     }
     .about-skills{
         flex-direction: column;
-        margin-bottom: 7rem !important;   
-        gap: 2rem;     
+        margin-bottom: 7rem !important;
+        gap: 2rem;
+    }
+    .frontend-skills ul, .blockchain-skills ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 25rem;
+        margin: 1rem auto !important;
     }
     .frontend-skills li, .blockchain-skills li{
         margin-left: 4rem;
-        
+
     }
-    
+
     /* ----PORTFOLIO-SECTION---- */
 
     .portfolio-container{
