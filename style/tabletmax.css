@@ -1,10 +1,22 @@
 @media screen and (max-width: 1100px) {
-    .about-right{
+  .about-container {
+    grid-template-columns: 1fr !important;
+  }
+  .about-right {
+    grid-template-columns: repeat(2, 25rem) !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+}
+@media screen and (max-width: 1300px) {
+  .about-right {
     grid-template-columns: 25rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    }    
-    .hover-background-image h4, p{
-        margin: 1rem !important;
-    }
+  }
+  .hover-background-image h4,
+  p {
+    margin: 1rem !important;
+  }
 }

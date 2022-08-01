@@ -235,7 +235,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10rem;
-  margin: 0 4rem 6rem 4rem;
+  margin: 0 15rem 6rem 15rem;
   justify-content: center;
   align-items: center;
 }

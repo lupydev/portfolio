@@ -22,10 +22,10 @@
     margin-right: 0 !important;
     margin-bottom: 7rem !important;
   }
-  /* .about-right{
-    grid-template-columns: 25rem !important;
+  .about-right{
+    grid-template-columns: repeat(2, 25rem) !important;
 
-  } */
+  }
   .header-btn-container {
     margin-bottom: 4rem !important;
   }
