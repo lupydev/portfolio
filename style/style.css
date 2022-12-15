@@ -491,20 +491,21 @@ section {
 }
 .contact-container > p{
   margin: 30px 0;
-  max-width: 763px;
+  max-width: 76.3rem;
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: var(--color-grey-1);
 }
 .input-control{
+  width: 76.3rem;
   margin: 1.5rem 0;
 }
 .input1{
   display: flex;
   column-gap: 24px;
 }
-.input-control label span, input, textarea{
-  width: 100%;
+.input-control label, input, textarea{
+  width: 94%;
   padding: 1.5rem 1.5rem;
   border-radius: 10px;
   font-size: 1.6rem;
@@ -523,6 +524,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 4rem;
   margin-bottom: 3rem;
 }
 .social-media{
@@ -536,7 +538,7 @@ section {
   color: var(--color-secundary);  
 }
 .contact-location{
-  margin-top: 15px;
+  margin-top: 2.5rem;
 
 }
 .contact-location, .location, .contact-email{
