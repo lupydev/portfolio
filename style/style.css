@@ -550,6 +550,7 @@ section {
 .location, .contact-email{
   column-gap: 10px;
   font-size: 1.2rem;
+  font-weight: 700;
   line-height: 1.4rem;
   color: var(--color-grey-3);
 }
