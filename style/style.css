@@ -525,11 +525,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 .social-media{
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   column-gap: 20px;
 
