@@ -341,7 +341,7 @@ section {
   position: absolute;
   left: 50%;
   top: -100%;
-  width: 100%;
+  width: 400%;
   height: 2px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
@@ -491,21 +491,22 @@ section {
 }
 .contact-container > p{
   margin: 30px 0;
-  max-width: 76.3rem;
+  max-width: 65rem;
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: var(--color-grey-1);
 }
 .input-control{
-  width: 76.3rem;
+  width: 100%;
+  max-width: 76.3rem;
   margin: 1.5rem 0;
 }
 .input1{
   display: flex;
   column-gap: 24px;
 }
-.input-control label, input, textarea{
-  width: 94%;
+ input, textarea{
+  width: 100%;
   padding: 1.5rem 1.5rem;
   border-radius: 10px;
   font-size: 1.6rem;
@@ -514,7 +515,7 @@ section {
   outline: none;
   resize: none;
 }
-.input-control input, textarea{
+ input, textarea{
   margin-top: 10px;
   box-shadow: var(--box-shadow);
   color: var(--color-grey-1);
