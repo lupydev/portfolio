@@ -235,7 +235,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10rem;
-  margin: 0 15rem 6rem 15rem;
+  margin: 0 15rem 3rem 15rem;
   justify-content: center;
   align-items: center;
 }
@@ -320,7 +320,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 /* --SKILSS-- */
 
