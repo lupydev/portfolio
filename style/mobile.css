@@ -33,13 +33,21 @@
         display: none;
     }
     .header-right{
-        padding: 1rem !important;
+        margin-bottom: 6rem;
+        padding: 2.5rem !important;
         max-width: 100% !important;
         justify-content: center !important;
         align-items: center !important;
     }
     .name{
-        text-align: center;
+        font-size: 3rem !important;
+        text-align: center !important;
+    }
+    .header-right .name .dev{
+        font-size: 3.5rem;
+    }
+    .header-right .name .o{
+        display: block;
     }
 
     /* ----ABOUT-SECTION----*/
@@ -70,6 +78,9 @@
         flex-direction: column;
         margin-bottom: 7rem !important;
         gap: 2rem;
+    }
+    .about-skills h4::before{
+        width: 100% !important;
     }
     .frontend-skills ul, .blockchain-skills ul{
         display: flex;
