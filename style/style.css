@@ -98,34 +98,29 @@ section {
   background-color: var(--color-secundary);
   transition: var(--transition);
 }
-.image {
-  width: 100%;
-  height: auto;
-  margin: 5rem;
-  transition: var(--transition);
-}
+
 .image img {
   width: 80%;
   height: 80%;
   border-radius: 50%;
   border: 10px solid var(--color-secundary);
+  background-color: var(--color-primary);
   transition: var(--transition);
 }
 .header-right {
   display: flex;
   flex-direction: column;
-  max-width: 90%;
+  max-width: 80%;
   padding-right: 8rem;
   justify-content: center;
 }
 .name {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .name .lumi {
   text-decoration: underline;
 }
 .name .dev {
-  font-size: 4.5rem;
   color: var(--color-secundary);
 }
 
@@ -253,7 +248,7 @@ section {
 }
 /* --LEFT-- */
 .about-left h3 {
-  margin: 30px 0;
+  margin-bottom: 30px;
   font-size: 2.5rem;
   text-transform: uppercase;
 }
@@ -276,12 +271,12 @@ section {
   align-content: center;
 }
 .about-item {
-  border: 1px solid var(--color-grey-5);
+  border: 2px solid var(--color-grey-5);
   border-radius: 5px;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
 }
 .about-item:hover {
-  border: 1px solid var(--color-secundary);
+  border: 2px solid var(--color-secundary);
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
   transform: translateY(-5px);
 }
@@ -312,7 +307,7 @@ section {
   left: 0;
   top: 15px;
   width: 4rem;
-  height: 2px;
+  height: 4px;
   background-color: var(--color-grey-5);
 }
 /* --BTN-- */
@@ -342,7 +337,7 @@ section {
   left: 50%;
   top: -100%;
   width: 400%;
-  height: 2px;
+  height: 4px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
 }

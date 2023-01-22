@@ -43,9 +43,6 @@
         font-size: 3rem !important;
         text-align: center !important;
     }
-    .header-right .name .dev{
-        font-size: 3.5rem;
-    }
     .header-right .name .o{
         display: block;
     }
