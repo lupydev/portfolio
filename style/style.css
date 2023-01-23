@@ -98,10 +98,7 @@ section {
   background-color: var(--color-secundary);
   transition: var(--transition);
 }
-.image{
-  
-}
-.image img {
+.header-left .image img {
   width: 80%;
   height: 80%;
   border-radius: 50%;
@@ -117,7 +114,7 @@ section {
   justify-content: center;
 }
 .name {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .name .lumi {
   text-decoration: underline;
@@ -249,13 +246,13 @@ section {
   color: var(--color-secundary);
 }
 /* --LEFT-- */
-.about-left h3 {
-  margin-bottom: 30px;
+/* .about-left h3 {
+  margin: 0 0 30px;
   font-size: 2.5rem;
   text-transform: uppercase;
-}
+} */
 .about-left p {
-  margin: 30px 0;
+  margin-bottom: 30px;
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: var(--color-grey-1);
@@ -343,23 +340,23 @@ section {
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
 }
-.frontend-skills ul,
-.blockchain-skills ul {
+.frontend-skills ul {
   margin: 10px;
   padding: 0;
   list-style: none;
 }
-.frontend-skills li,
-.blockchain-skills li {
+.frontend-skills li {
   margin-bottom: 5px;
   font-size: 1.6rem;
   color: var(--color-grey-1);
 }
-.frontend-skills li i,
-.blockchain-skills li i {
+.frontend-skills li i {
   margin-right: 10px;
   font-size: 1.8rem;
   color: var(--color-secundary);
+}
+.frontend-skills li a:hover{
+  text-decoration: underline;
 }
 
 /* ----PORTFOLIO-SECTION---- */
@@ -387,8 +384,7 @@ section {
   text-transform: uppercase;
 }
 .portfolio-container {
-  /* if i got more than 3 item then i have to use GRID */
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;  
   grid-template-columns: repeat(3, 375px);
@@ -400,6 +396,7 @@ section {
   min-width: 250px;
   max-width: 350px;
   height: 450px;
+  margin-top: 16px;
   padding: 10px;
   border-radius: 15px;
   border: 2px solid var(--color-grey-5);
