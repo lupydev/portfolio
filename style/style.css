@@ -98,13 +98,15 @@ section {
   background-color: var(--color-secundary);
   transition: var(--transition);
 }
-
+.image{
+  
+}
 .image img {
   width: 80%;
   height: 80%;
   border-radius: 50%;
   border: 10px solid var(--color-secundary);
-  background-color: var(--color-primary);
+  background-color: var(--color-primary) !important;
   transition: var(--transition);
 }
 .header-right {
