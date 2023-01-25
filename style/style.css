@@ -420,6 +420,7 @@ section {
   box-shadow: var(--box-shadow);
 }
 .portfolio-item p{
+  height: 75px;
   margin-bottom: 30px;
   padding: 0 1rem;
   font-size: 1.6rem;
