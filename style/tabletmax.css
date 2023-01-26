@@ -7,6 +7,11 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+  .portfolio-container {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 350px) !important;
+    margin-bottom: 7rem;
+  }
 
 }
 @media screen and (max-width: 1300px) {
@@ -14,9 +19,5 @@
     grid-template-columns: 25rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-  }
-  .hover-background-image h4,
-  p {
-    margin: 1rem !important;
   }
 }

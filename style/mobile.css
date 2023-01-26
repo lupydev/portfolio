@@ -94,7 +94,12 @@
     /* ----PORTFOLIO-SECTION---- */
 
     .portfolio-container{
+        display: flex !important;
+        flex-direction: column !important;        
         margin-bottom: 7rem !important;
+    }
+    .portfolio-item{
+        align-self: center;
     }
 
     /* ----CONTACT-SECTION---- */

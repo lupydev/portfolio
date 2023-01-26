@@ -386,17 +386,19 @@ section {
 .portfolio-container {
   display: grid;
   justify-content: center;
-  align-items: center;  
-  grid-template-columns: repeat(3, 375px);
-  gap: 40px;
-  margin-bottom: 50px;
+  align-content: center;  
+  grid-template-columns: repeat(3, 350px);
+  grid-auto-flow: row;
+  gap: 20px;
+  /* margin-bottom: 50px; */
 }
 .portfolio-item {
-  position: relative;  
+  /* position: relative;   */
+  justify-self: center;
   min-width: 250px;
   max-width: 350px;
   height: 450px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   padding: 10px;
   border-radius: 15px;
   border: 2px solid var(--color-grey-5);

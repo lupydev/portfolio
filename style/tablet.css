@@ -22,9 +22,8 @@
     margin-right: 0 !important;
     margin-bottom: 7rem !important;
   }
-  .about-right{
+  .about-right {
     grid-template-columns: repeat(2, 25rem) !important;
-
   }
   .header-btn-container {
     margin-bottom: 4rem !important;
@@ -34,10 +33,10 @@
   }
 
   /* ----PORTFOLIO-SECTION---- */
-  .portfolio-container{
+  .portfolio-container {
     flex-direction: column;
-    /* if i got more than 3 items then i have to use GRID */
-    /* grid-template-columns: minmax(300px, 1fr) !important; */
+    grid-template-columns: repeat(2, 350px) !important;
+    margin-bottom: 7rem;
   }
 
   /* ----CONTACT-SECTION---- */
@@ -57,8 +56,7 @@
   .social-media .icon-big i {
     font-size: 4rem !important;
   }
-  .contact-location{
+  .contact-location {
     margin-top: 7rem !important;
   }
 }
-
